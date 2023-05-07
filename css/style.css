@@ -173,3 +173,29 @@ nav ul a:hover::after{
 .depoimentos .card-item:hover .estrelas i{
   color: white;
 }
+.clientes h3,
+.clientes p{
+  text-align: center;
+}
+.clientes .container div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footer{
+  background-color: #4f9cf9;
+  text-align: center;
+}
+.footer i{
+  color: #4f9cf9;
+  font-size: 19px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 3px;
+  padding: 10px;
+}
+.footer p{
+  color: white;
+  margin-top: 10px;
+}
