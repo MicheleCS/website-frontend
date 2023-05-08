@@ -230,6 +230,71 @@ nav .close-icon{
   width: 100%;
   border-radius: 10px;
 }
+.servicos h3{
+  text-align: center;
+}
+.servicos .container > p{
+  text-align: center;
+}
+.servicos .rows-cards{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.servicos .row-card-item{
+  background-color: #d3e6fd;
+  width: 350px;
+  padding: 20px;
+  border-radius: 14px;
+  margin: 20px;
+}
+.servicos .row-card-item:hover{
+  background-color: #4f9cf9;
+}
+.servicos .row-card-item:hover p{
+  color: white;
+}
+.servicos .row-card-item img{
+  background-color: #4f9cf9;
+  border-radius: 14px;
+  width: 70px;
+  padding: 9px;
+}
+.servicos .row-card-item p.nome-servico{
+  margin: 5px;
+  transition: 0.3s;
+}
+.servicos .row-card-item p.descricao-servico{
+  transition: 0.3s;
+}
+.dados{
+  background-color: #d3e6fd;
+}
+.dados .container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.dados .dados-item{
+  text-align: center;
+  margin: 15px;
+  color: #000000be;
+}
+.dados .dados-item img{
+  background-color: #4f9cf9;
+  border-radius: 14px;
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 80px;
+}
+.dados .dados-item p{
+  font-size: 18px;
+}
+.dados .dados-item p strong{
+  font-size: 28px;
+}
+
 @media(max-width: 830px){
   .ul{
     position: fixed;
