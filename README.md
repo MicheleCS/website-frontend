@@ -23,6 +23,6 @@
 > Foi usado as Docs do HTML e CSS.
 
 ## Img Projeto
-![Contato](img/universoDeveloper.png)
+![Contato](img/UniversoDeveloper.png)
 ![Avaliações](img/ud.png)
 ![Serviços](img/ud2.png)
